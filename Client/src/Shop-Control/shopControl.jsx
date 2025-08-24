@@ -180,9 +180,9 @@ const shopControl = () => {
           </div>
 
           <div className="bg-white p-4 m-3 rounded-lg shadow overflow-x-auto">
-            <table className="mt-6 min-w-full border-collapse">
+            <table className="rounded-2xl mt-6 min-w-full border-collapse">
               <thead>
-                <tr className="bg-gray-50 text-left text-gray-500 text-sm">
+                <tr className="bg-gray-100 text-left rounded-4xl text-gray-500 text-sm">
                   <th className="p-2">Shop Name</th>
                   <th className="p-2">Shop ID</th>
                   <th className="p-2">Owner</th>
@@ -194,7 +194,7 @@ const shopControl = () => {
               </thead>
               <tbody>
                 {shops.map((shop, index) => (
-                  <tr key={index} className="shadow">
+                  <tr key={index} className="shadow ">
                     <td className=" p-2 flex items-center space-x-3">
                       <span className="w-6 h-6 bg-yellow-400 m-2 rounded"></span>
                       {shop.name}

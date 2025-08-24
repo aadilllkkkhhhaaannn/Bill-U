@@ -1,14 +1,10 @@
 import React from "react";
-import ShopControl from "./Shop-Control/shopControl";
-import Information from "./Components/Information";
-
+import Dashboard from "./Components/Dashboard";
 
 const App = () => {
   return (
     <>
-      {/* <ShopControl /> */}
-      <ShopControl />
-      {/* <Information /> */}
+      <Dashboard />
     </>
   );
 };
